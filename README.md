@@ -1,6 +1,3 @@
-This README file explains the end-to-end data process and architecture behind the **Smart Caption Generator**, as detailed in the provided diagram.
-
-The project automatically generates a textual description for an input image, transitioning from raw pixel data to a coherent, grammatically correct sentence.
 
 ## System Overview
 
