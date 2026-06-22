@@ -198,7 +198,3 @@ If this project helped you or sparked an idea, drop a **⭐ star** on the repo �
 </div>
 
 ---
-
-<div align="center">
-<sub>Built with ❤️ using Python, Deep Learning & Streamlit</sub>
-</div>
