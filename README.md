@@ -2,36 +2,44 @@
 
 <div align="center">
 
-![Banner](https://img.shields.io/badge/AI-Image%20Caption%20Generator-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=500&lines=Upload+an+Image...;Get+an+AI+Caption+Instantly!;Powered+by+Deep+Learning+%F0%9F%A7%A0" alt="Typing SVG" />
+
+<br/>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Stars-⭐%201-yellow?style=for-the-badge)
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Suman18-bit/Project?style=for-the-badge&color=yellow)
 
 <br/>
 
-> **Upload an image. Get a smart, AI-generated caption instantly.**  
-> Powered by deep learning and served through a clean Streamlit web interface.
+> 🤖 **An AI-powered app that reads your image and writes a caption for it.**  
+> Built with deep learning and deployed instantly via **Gradio**.
 
 <br/>
 
-[🚀 Getting Started](#-getting-started) • [🛠️ Tech Stack](#️-tech-stack) • [📂 Project Structure](#-project-structure) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [🛠️ Tech Stack](#️-tech-stack) • [📂 Structure](#-project-structure) • [⚙️ CI/CD](#️-cicd-pipeline)
 
 </div>
 
 ---
 
-## ✨ What It Does
+## 🌟 Overview
 
-The **Smart Image Caption Generator** uses a trained deep learning model to analyze images and automatically generate meaningful, human-like captions. Simply upload any image and the app returns a descriptive caption in seconds.
+The **Smart Image Caption Generator** is an end-to-end deep learning application that takes an image as input and produces a natural language description. The model is trained, exported, and deployed — all within a single cohesive workflow powered by Gradio's intuitive UI.
 
-### 🔍 Key Features
+---
 
-- 📷 **Upload & Caption** — Drag and drop any image to get an instant AI-generated caption
-- 🧠 **Deep Learning Powered** — Trained model with a pre-saved tokenizer for accurate predictions
-- 🌐 **Streamlit Web App** — Clean, interactive UI — no setup required for end users
-- ⚙️ **CI/CD Pipeline** — GitHub Actions workflow for automated Python application testing
-- 📓 **Research Notebook** — Includes the full model training notebook (`Caption_Genereter.ipynb`)
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🧠 **AI Captioning** | Deep learning model generates human-like image captions |
+| 🎛️ **Gradio Interface** | Clean, shareable web UI with zero frontend code |
+| 📓 **Training Notebook** | Full model training pipeline in `Caption_Genereter.ipynb` |
+| 🔁 **CI/CD Ready** | GitHub Actions automates testing on every push |
+| ☁️ **Colab Compatible** | Train and deploy directly from Google Colab |
 
 ---
 
@@ -39,26 +47,25 @@ The **Smart Image Caption Generator** uses a trained deep learning model to anal
 
 <div align="center">
 
-### 🐍 Core Language
+### Language
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### 🌐 Web Framework
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+### Deployment & UI
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
 
-### 🤖 Deep Learning
+### Deep Learning
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### 🖼️ Image Processing
-![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+### Image Processing
+![Pillow](https://img.shields.io/badge/Pillow-306998?style=for-the-badge&logo=python&logoColor=white)
 
-### 📓 Experimentation
+### Notebook & Experimentation
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-### ⚙️ DevOps & CI/CD
+### DevOps
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -70,99 +77,95 @@ The **Smart Image Caption Generator** uses a trained deep learning model to anal
 
 ```
 📦 Project/
+│
 ├── 📁 .github/
 │   └── 📁 workflows/
-│       └── ⚙️  python-app.yml        # GitHub Actions CI/CD pipeline
+│       └── ⚙️  python-app.yml       # CI/CD: auto-test on push & PR
 │
-├── 📓 Caption_Genereter.ipynb        # Model training & experimentation notebook
-├── 🐍 app.py                         # Streamlit web application
-├── 📁 models/                        # Saved model files
-├── 🔤 tokenizer.pkl                  # Pre-trained tokenizer (pickle)
-├── 📋 requirements.txt               # Python dependencies
+├── 📓 Caption_Genereter.ipynb       # Full pipeline: train → evaluate → deploy via Gradio
+├── 📋 requirements.txt              # All Python dependencies
 └── 📄 README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### ✅ Prerequisites
-
-Make sure you have **Python 3.8+** installed.
-
-### 📦 Installation
+### 1. Clone the Repo
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/Suman18-bit/Project.git
 cd Project
+```
 
-# 2. Install dependencies
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-### ▶️ Run the App
-
-```bash
-streamlit run app.py
-```
-
-The app will open automatically in your browser at `http://localhost:8501` 🎉
-
----
-
-## 🧪 Model Training
-
-Want to retrain or explore the model? Open the notebook:
+### 3. Launch the Notebook
 
 ```bash
 jupyter notebook Caption_Genereter.ipynb
 ```
 
-Or open it directly in **Google Colab** for GPU-accelerated training.
+> 💡 **Tip:** Open in **Google Colab** for free GPU access and instant Gradio sharing link!
 
 ---
 
-## 🔄 CI/CD Pipeline
-
-This project uses **GitHub Actions** to automatically test the Python application on every push and pull request.
-
-```yaml
-# Triggered on: push & pull_request to main branch
-# Pipeline: Setup Python → Install deps → Run tests
-```
-
-Check `.github/workflows/` for the full workflow configuration.
-
----
-
-## 📸 How It Works
+## 🔄 How It Works
 
 ```
-📷 User Uploads Image
-        ↓
-🔍 Image Preprocessed (resize, normalize)
-        ↓
-🧠 CNN Feature Extractor (e.g., InceptionV3 / VGG16)
-        ↓
-📝 LSTM / Transformer Decoder generates caption
-        ↓
-🔤 Tokenizer decodes output → Human-readable caption
-        ↓
-🖥️ Caption displayed on Streamlit UI
+📷  Image Input (via Gradio UI)
+         │
+         ▼
+🔍  Preprocessing  ──────────────────── resize · normalize · array
+         │
+         ▼
+🧠  CNN Feature Extractor ───────────── VGG16 / InceptionV3
+         │
+         ▼
+📝  Sequence Decoder ────────────────── LSTM + Embedding layer
+         │
+         ▼
+🔤  Tokenizer Decodes Output
+         │
+         ▼
+🖥️  Caption displayed on Gradio Interface
 ```
 
 ---
 
-## 🤝 Contributing
+## ⚙️ CI/CD Pipeline
 
-Contributions are welcome! Feel free to:
+Every push to `main` triggers the GitHub Actions pipeline:
 
-1. 🍴 Fork this repo
-2. 🌿 Create a new branch (`git checkout -b feature/your-feature`)
-3. 💾 Commit your changes (`git commit -m 'Add some feature'`)
-4. 📤 Push to the branch (`git push origin feature/your-feature`)
-5. 🔃 Open a Pull Request
+```
+Push / Pull Request
+       ↓
+✅ Set up Python environment
+       ↓
+📦 Install dependencies from requirements.txt
+       ↓
+🧪 Run tests
+       ↓
+✔️  Build passes!
+```
+
+> See `.github/workflows/python-app.yml` for the full config.
+
+---
+
+## 📦 requirements.txt Includes
+
+```
+tensorflow / keras
+gradio
+numpy
+pillow
+jupyter
+```
 
 ---
 
@@ -172,15 +175,27 @@ Contributions are welcome! Feel free to:
 
 **Suman Seth**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Suman18--bit-181717?style=for-the-badge&logo=github)](https://github.com/Suman18-bit)
+[![GitHub](https://img.shields.io/badge/GitHub-Suman18--bit-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Suman18-bit)
 
 </div>
 
 ---
 
-## ⭐ Support
+## ⭐ Show Some Love
 
-If you found this project useful, please give it a **star ⭐** — it keeps the motivation going!
+If this project helped you or sparked an idea, drop a **⭐ star** on the repo — it means the world!
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════╗
+║   Built with 🧠 Deep Learning & ❤️ Python  ║
+╚══════════════════════════════════════════╝
+```
+
+</div>
 
 ---
 
