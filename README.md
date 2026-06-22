@@ -59,7 +59,7 @@ The **Smart Image Caption Generator** is an end-to-end deep learning application
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ### Image Processing
-![VGG16](https://img.shields.io/badge/Pillow-306998?style=for-the-badge&logo=python&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-306998?style=for-the-badge&logo=python&logoColor=white)
 
 ### Notebook & Experimentation
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
